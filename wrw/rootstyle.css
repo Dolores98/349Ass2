@@ -1,0 +1,103 @@
+html {
+    font-family: Arial;
+    color: white;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    display: block;
+    color: rgb(47, 185, 128);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 0px 15px 2px;
+}
+
+body {
+    background: rgba(255, 255, 104, 0.144);
+    background-position: center center;
+    width: 312px;
+    padding: 50px;
+    margin: 50px;
+    position: fixed;
+    left: 30px;
+}
+
+#button {
+    border: 0;
+    background: #40927a9a;
+    margin: 1px 0px 0px 0px;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    position: center center;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    margin: 0px 0px -10px 0px;
+}
+
+input {
+    margin: -15px 0px;
+}
+
+p {
+    color: rgb(255, 160, 176);
+}
+
+h1 {
+    color: rgba(255, 217, 0, 0.815);
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(126, 126, 126);
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.4em;
+}
+
+#showtable {
+    margin: 10px 0px 10px 0px;
+    border: 0;
+    background: #40927a9a;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    position: center center;
+}
+
+#querylabel {
+    display: block;
+    font-size: 15px;
+    margin: 10px 0px -10px 0px;
+}
+
+#table-wrapper {
+    position: relative;
+}
+
+#table-scroll {
+    height: 200px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+#privone {
+    margin: 10px 0px -2px 0px;
+    font-size: 10px;
+}
+
+#privtwo {
+    margin: 10px 0px -6px 0px;
+    font-size: 10px;
+}
+
+#columns {
+    color: pink;
+}
